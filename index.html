@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RNX! - Artist Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo">RNX!</div>
+            <div class="nav-toggle">☰</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>RNX!</h1>
+            <p>Contemporary artist exploring the intersection of Concept art,Character Design and digital mediums</p>
+            <a href="gallery.html" class="cta-button">View Gallery →</a>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <h2>Gallery</h2>
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-category="all">All</button>
+            <button class="filter-btn" data-category="Tetherless">Tetherless</button>
+            <button class="filter-btn" data-category="OMOB">OMOB</button>
+            <button class="filter-btn" data-category="digital">Digital</button>
+        </div>
+        <div class="gallery-grid"></div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="about-content">
+            <div class="about-image">
+                <img src="./asfand-effandi-aNOavzNktK4-unsplash.jpg" alt="Artist portrait">
+            </div>
+            <div class="about-text">
+                <h2>About Me</h2>
+                <p>As a contemporary artist based in Nigeria, I explore the delicate balance between Conceptual artistic techniques and modern digital innovations. My work reflects the dynamic interplay of imaginative life and Comical elements.</p>
+                <p>With over eight years of experience in various mediums, I strive to push the boundaries of Conceptual artistic expression.</p>
+                <div class="stats">
+                    <div class="stat">
+                        <h3>8+</h3>
+                        <p>Years Experience</p>
+                    </div>
+                    <div class="stat">
+                        <h3>50+</h3>
+                        <p>Exhibitions</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Get in Touch</h2>
+        <div class="contact-content">
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <p>📧 thusrnx@gmail.com</p>
+                <p>📞 +234 915 504 2966</p>
+                <p>📍 Abuja, Nigeria</p>
+            </div>
+            <form id="contact-form" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" rows="4" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>
